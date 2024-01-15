@@ -25,6 +25,7 @@ body {
   );
   background-size: cover;
   color: #cccccc;
+  height: 100vh;
 }
 
 .logo {
