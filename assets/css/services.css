@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 120px;
+}
+
+.services-section {
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  margin-bottom: 10px;
+  font-size: 30px; 
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 17px; 
+}

@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bg {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  background: rgb(18, 18, 18);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 1) 9%,
+    rgba(96, 32, 125, 1) 50%,
+    rgba(123, 36, 154, 1) 61%,
+    rgba(69, 28, 119, 1) 100%
+  );
+
+  background-size: cover;
+  color: #cccccc;
+}
+
+main {
+    width: 70vw;
+    height: 100vh;
+}

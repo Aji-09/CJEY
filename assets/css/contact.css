@@ -1,0 +1,50 @@
+main {
+  margin: 90px 130px 0px;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.contact-details,
+.contact-form {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px; 
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px; 
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+.contact-details h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-form h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}

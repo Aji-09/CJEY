@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="image/icon.png" type="image/x-icon" />
+    <link rel="icon" href="assets/image/icon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>AJI</title>
+    <link rel="stylesheet" type="text/css" href="common/header.css">
+    <link rel="stylesheet" type="text/css" href="common/footer.css">
+    <link rel="stylesheet" href="../common/background.css">
+    <title>CJEY</title>
   </head>
-  
+
   <body>
-
-    <header>
-        <a href="#home"><img src="image/logo.png" width="100"></a>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">About</a></li>
-                <li><a href="#home">Services</a></li>
-                <li><a href="#home">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <button>Sign in</button>
-            <button>Sign up</button>
-        </div>
-    </header>
-
+    <div id="bg"></div>
+    <script src="common/header.js"></script>
     <main>
       <div class="content-left">
-        <h1>Start Investing in Crypto Today</h1>
-        <p>
-          Start investing with us today and build your financial future. Our
-          easy-to-use platform is for everyone, whether you're new to investing
-          or have experience.
-        </p>
+        <div
+          class="intro"
+          data-tilt
+          data-tilt-glare
+          data-tilt-max-glare="0.3"
+          data-tilt-reverse="true"
+        >
+          <h1>Start Investing in Crypto Today</h1>
+          <p>
+            Start investing with us today and build your financial future. Our
+            easy-to-use platform is for everyone, whether you're new to
+            investing or have experience.
+          </p>
+          <div class="btn2">
+            <button class="inv"><a href="pages/login.html">Invest now</a></button>
+            <button class="lrn"><a href="pages/login.html">Learn more</a></button>
+          </div>
+        </div>
       </div>
-      <div class="content-right"><img src="right.png" class="right-img" /></div>
+      <div class="content-right">
+        <img src="assets/image/right.png" class="right-img" width="450" />
+      </div>
     </main>
 
-    <footer>
+    <script src="common/footer.js"></script>
 
-    </footer>
-
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/tilt.js"></script>
   </body>
 </html>

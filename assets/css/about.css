@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 120px;
+}
+
+.about-section {
+  margin-bottom: 24px;
+}
+
+h2,
+h3 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.team-members li {
+  margin-bottom: 8px;
+  font-size: 17px;
+}
