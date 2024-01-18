@@ -1,6 +1,6 @@
 document.write(`
   <header>
-    <a class="logo" href="index.html"><img src="//assets/image/logo.png" width="100"/></a>
+    <a class="logo" href="index.html"><img src="assets/image/logo.png" width="100"/></a>
     <div>
       <ul class="nav-links">
         <li><a href="./index.html">Home</a></li>
